@@ -1,0 +1,65 @@
+Folder PATH listing
+Volume serial number is 7471-2976
+C:.
+|   childhood.html
+|   family.html
+|   food.html
+|   friends.html
+|   index.html
+|   jokes.html
+|   love.html
+|   main.js
+|   menu.html
+|   movie.html
+|   README.txt
+|   song.html
+|   structure.txt
+|   style.css
+|   
++---images
+|   |   .keep
+|   |   
+|   +---childhood
+|   |       07d3e95a-269f-48e0-a5bd-a48ca8d0de67.jpg
+|   |       08ed6573-2b06-450e-908b-14cebaf8a9d0.jpg
+|   |       34f06841-2b82-4609-a5e1-b016bee5a68f.jpg
+|   |       6bc28a5a-58ec-405d-9d99-f29a74a82c08.jpg
+|   |       ee787d6b-4288-421e-8609-f3c701d92870.jpg
+|   |       
+|   +---family
+|   |       4a3b735f-9334-4db1-8131-57b03a8fff72.jpg
+|   |       5f1e5356-515b-4474-b7be-c277eade4d09.jpg
+|   |       8b9bc75f-296b-4235-8b80-7e5b6aa8d1e1.jpg
+|   |       bf73ffc8-cd34-4397-9421-d5fc6e0be12c.jpg
+|   |       cf78a6e5-a4ba-414a-9126-d98b6dcf1c12.jpg
+|   |       
+|   +---food
+|   |       adobo.webp
+|   |       inasal.webp
+|   |       sinigang.webp
+|   |       
+|   +---friends
+|   |       266b6992-e0c9-4278-a235-48eb73506911.jpg
+|   |       3a4593d6-9509-461d-8afc-9c830a29e8d8.jpg
+|   |       3bd99b25-d970-46f7-8f5c-490bb8bdf2d5.jpg
+|   |       94a5579d-7cf4-4c7e-b276-8721eea0a557.jpg
+|   |       b72340f8-8c98-454c-8d80-79226870775c.jpg
+|   |       
+|   +---joke
+|   +---me and my love
+|   |       30423214-1893-473b-a832-43ec2ecee552.jpg
+|   |       3a4593d6-9509-461d-8afc-9c830a29e8d8.jpg
+|   |       414dd5d0-3490-4c44-9d45-abf791186fc0.jpg
+|   |       973b8f07-ee23-4f0f-ae76-a94f21a21095.jpg
+|   |       a61e3cbe-b07d-43ff-b05a-701d5e3513b4.jpg
+|   |       
+|   +---movie
+|   |       MV5BMWE0MmUzYjEtNzQ4MS00MjkzLWE3YTYtYjQwNmZlZTJkODRmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg
+|   |       
+|   \---music
+|           The Only Exception.mp3
+|           why.txt
+|           
+\---media
+        .keep
+        

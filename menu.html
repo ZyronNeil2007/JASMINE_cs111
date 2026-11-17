@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My Memory Games</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>try { var m = JSON.parse(sessionStorage.getItem('morph') || 'null'); if (m) { document.documentElement.classList.add('arriving'); document.documentElement.style.setProperty('--arrive', m.color) } } catch (e) { }</script>
+</head>
+
+<body>
+  <div class="bg-shapes" aria-hidden="true">
+    <span class="c" style="width:90px;height:90px;left:6%;top:12%"></span>
+    <span class="t" style="left:82%;top:18%;animation-delay:-4s"></span>
+    <span style="width:80px;height:80px;left:12%;top:72%;animation-delay:-8s"></span>
+    <span class="c" style="width:60px;height:60px;left:88%;top:70%;animation-delay:-2s"></span>
+    <span class="t" style="left:48%;top:86%;animation-delay:-6s"></span>
+  </div>
+
+  <main class="wrap">
+    <header class="hero">
+      <a class="badge" href="index.html" data-morph data-shape="circle" data-color="#ed1b76">◀ BACK TO COVER</a>
+      <h1>My Memory <em>Games</em></h1>
+      <p>Choose a round to relive a memory</p>
+      <div class="shapes-row" aria-hidden="true"><i></i><i></i><i></i></div>
+    </header>
+
+    <nav class="grid" aria-label="Memory rounds">
+      <a class="tile" href="childhood.html" data-morph data-shape="circle" data-color="#ed1b76" style="--c:#ed1b76">
+        <div class="glyph circle">01</div>
+        <h2>Childhood Memories</h2><small>5 PICTURES</small>
+      </a>
+      <a class="tile" href="family.html" data-morph data-shape="triangle" data-color="#069e8c" style="--c:#069e8c">
+        <div class="glyph triangle">02</div>
+        <h2>My Family &amp; Relatives</h2><small>5 PICTURES</small>
+      </a>
+      <a class="tile" href="friends.html" data-morph data-shape="square" data-color="#ed1b76" style="--c:#ed1b76">
+        <div class="glyph square">03</div>
+        <h2>My Friends</h2><small>5 PICTURES</small>
+      </a>
+      <a class="tile" href="love.html" data-morph data-shape="circle" data-color="#069e8c" style="--c:#069e8c">
+        <div class="glyph circle">04</div>
+        <h2>Me &amp; My Love</h2><small>5 PICTURES</small>
+      </a>
+      <a class="tile" href="food.html" data-morph data-shape="triangle" data-color="#ed1b76" style="--c:#ed1b76">
+        <div class="glyph triangle">05</div>
+        <h2>My Favorite Food</h2><small>3 PICTURES + RECIPE</small>
+      </a>
+      <a class="tile" href="movie.html" data-morph data-shape="square" data-color="#069e8c" style="--c:#069e8c">
+        <div class="glyph square">06</div>
+        <h2>My Favorite Movie</h2><small>CLIP · CAST · STORY</small>
+      </a>
+      <a class="tile" href="song.html" data-morph data-shape="circle" data-color="#ed1b76" style="--c:#ed1b76">
+        <div class="glyph circle">07</div>
+        <h2>My Song</h2><small>KARAOKE + WHY</small>
+      </a>
+      <a class="tile" href="jokes.html" data-morph data-shape="triangle" data-color="#069e8c" style="--c:#069e8c">
+        <div class="glyph triangle">08</div>
+        <h2>Joke Time</h2><small>5 JOKES</small>
+      </a>
+    </nav>
+  </main>
+
+  <footer class="site">A PERSONAL MEMORY PROJECT · MADE WITH LOVE · NO ONE GETS ELIMINATED HERE</footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
